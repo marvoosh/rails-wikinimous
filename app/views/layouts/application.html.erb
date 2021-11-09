@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <div class='avbar navbar-light bg-light justify-content-between'>
+      <%= link_to 'Wikinimous', articles_path %><%= link_to 'New article', new_article_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
